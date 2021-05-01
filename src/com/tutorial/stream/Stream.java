@@ -19,7 +19,7 @@ public class Stream {
             }
         }
 
-        //Decrative Approach
+        //Declarative Approach
         people.stream()
                 .filter(person -> person.getGender().equals(Gender.Male))
                 .collect(Collectors.toList())

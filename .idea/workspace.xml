@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1d8972-ba01-4309-a302-3f2387b7381a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/stream/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/runnable/_Runnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tutorial/stream/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/stream/Stream.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +32,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java_tutorial\functionalPrograming" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -42,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stream">
+  <component name="RunManager" selected="Application._Runnable">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.Main" />
       <module name="functionalPrograming" />
@@ -66,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_Runnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.runnable._Runnable" />
+      <module name="functionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.runnable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Runnable" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.Main" />
       </list>
@@ -84,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619807140226</updated>
       <workItem from="1619807143529" duration="440000" />
-      <workItem from="1619830760055" duration="1209000" />
+      <workItem from="1619830760055" duration="1813000" />
     </task>
     <servers />
   </component>
