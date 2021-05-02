@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1d8972-ba01-4309-a302-3f2387b7381a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/consumer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/function/_BiFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/function/_Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/consumer/_BiConsumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/functionalPrograming/com/tutorial/runnable/_Runnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functionalPrograming/com/tutorial/runnable/_Runnable.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._Consumer">
-    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.stream.Stream" />
+  <component name="RunManager" selected="Application._BiConsumer">
+    <configuration name="_BiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.consumer._BiConsumer" />
       <module name="functionalPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tutorial.stream.*" />
+          <option name="PATTERN" value="com.tutorial.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._BiConsumer" />
         <item itemvalue="Application._Consumer" />
         <item itemvalue="Application._BiFunction" />
         <item itemvalue="Application._Function" />
         <item itemvalue="Application._Runnable" />
-        <item itemvalue="Application.Stream" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +141,7 @@
       <workItem from="1619807143529" duration="440000" />
       <workItem from="1619830760055" duration="1909000" />
       <workItem from="1619918175342" duration="2083000" />
+      <workItem from="1619981705611" duration="374000" />
     </task>
     <servers />
   </component>
