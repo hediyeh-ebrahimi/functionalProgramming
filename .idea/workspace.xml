@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1d8972-ba01-4309-a302-3f2387b7381a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/runnable/_Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/consumer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/function/_BiFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/function/_Function.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorial/stream/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorial/stream/Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/functionalPrograming/com/tutorial/runnable/_Runnable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/functionalPrograming/com/tutorial/runnable/_Runnable.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +24,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PerforceDirect.Settings">
+    <option name="ENABLED" value="false" />
+  </component>
   <component name="ProjectId" id="1rttJP3roidAkvudCgFYr7xaq1U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,23 +55,52 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._Runnable">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.Main" />
-      <module name="functionalPrograming" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application._Consumer">
     <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.stream.Stream" />
       <module name="functionalPrograming" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tutorial.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_BiFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.function._BiFunction" />
+      <module name="functionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.function.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.consumer._Consumer" />
+      <module name="functionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_Function" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.function._Function" />
+      <module name="functionalPrograming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutorial.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,9 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Consumer" />
+        <item itemvalue="Application._BiFunction" />
+        <item itemvalue="Application._Function" />
         <item itemvalue="Application._Runnable" />
         <item itemvalue="Application.Stream" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1619807140226</updated>
       <workItem from="1619807143529" duration="440000" />
-      <workItem from="1619830760055" duration="1813000" />
+      <workItem from="1619830760055" duration="1909000" />
+      <workItem from="1619918175342" duration="2083000" />
     </task>
     <servers />
   </component>
