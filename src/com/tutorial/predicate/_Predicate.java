@@ -10,8 +10,14 @@ public class _Predicate {
         System.out.println(verificationEmail("test"));
 
         //Declarative
-        Predicate<String> predicate = (email) -> email.contains("@");
-        System.out.println(predicate.test("hediyeh@"));
+        Predicate<String> predicateEmail = (email) -> email.contains("@");
+//        System.out.println(predicateEmail.test("hediyeh@"));
+
+        Predicate<String> predicateExten = str ->  str.contains(".com");
+        System.out.println("----*****-----"+predicateEmail.and(predicateExten).test("hediyeh@gmail.com"));
+
+
+
     }
 
     private static boolean verificationEmail(String email){
