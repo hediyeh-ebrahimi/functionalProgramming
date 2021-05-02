@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc1d8972-ba01-4309-a302-3f2387b7381a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorial/consumer/_BiConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/tutorial/predicate/_Predicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application._BiConsumer">
+  <component name="RunManager" selected="Application._Predicate">
     <configuration name="_BiConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tutorial.consumer._BiConsumer" />
       <module name="functionalPrograming" />
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_Runnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tutorial.runnable._Runnable" />
+    <configuration name="_Predicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutorial.predicate._Predicate" />
       <module name="functionalPrograming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tutorial.runnable.*" />
+          <option name="PATTERN" value="com.tutorial.predicate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._Predicate" />
         <item itemvalue="Application._BiConsumer" />
         <item itemvalue="Application._Consumer" />
         <item itemvalue="Application._BiFunction" />
         <item itemvalue="Application._Function" />
-        <item itemvalue="Application._Runnable" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +142,7 @@
       <workItem from="1619807143529" duration="440000" />
       <workItem from="1619830760055" duration="1909000" />
       <workItem from="1619918175342" duration="2083000" />
-      <workItem from="1619981705611" duration="374000" />
+      <workItem from="1619981705611" duration="881000" />
     </task>
     <servers />
   </component>
