@@ -7,14 +7,14 @@ import java.util.stream.Collectors;
 public class Stream {
     public static void main(String[] args) {
         List<Person> people = Arrays.asList(
-                new Person("hediyeh",29,Gender.Female),
-                new Person("ali",32,Gender.Male),
-                new Person("zahra",18,Gender.Female)
+                new Person("hediyeh", 29, Gender.Female),
+                new Person("ali", 32, Gender.Male),
+                new Person("zahra", 18, Gender.Female)
         );
 
         //Imperative Approach
         for (Person person : people) {
-            if(person.getGender() == Gender.Male){
+            if (person.getGender() == Gender.Male) {
                 System.out.println(person.toString());
             }
         }
@@ -24,9 +24,20 @@ public class Stream {
                 .filter(person -> person.getGender().equals(Gender.Male))
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
+
+
+        //allMath
+        System.out.println(people.stream()
+                .allMatch(person -> person.getAge() < 15)
+        );
+
+        //anyMatch
+        System.out.println(people.stream()
+                .anyMatch(person -> person.getAge() > 65)
+        );
     }
 
-    static class Person{
+    static class Person {
         private final String name;
         private final int age;
         private final Gender gender;
@@ -59,7 +70,7 @@ public class Stream {
         }
     }
 
-    enum Gender{
-        Male,Female
+    enum Gender {
+        Male, Female
     }
 }

@@ -17,7 +17,7 @@ public class _Supplier {
                         new Customer("hediyeh", "123")
                         , new Customer("sara", "456"),
                         new Customer("shabnam", "789"));
-        
+
         listSupplier.get().stream().forEach(System.out::println);
     }
 }
