@@ -36,10 +36,11 @@ public class _Stream {
         integers.stream().parallel()
                 .forEachOrdered(integer -> System.out.println(Thread.currentThread().getName()+" /"+integer));
 
-
+        // => limit, skip,distinct remove parallel attribute
+        //unordered is for parallel and order is not important
         integers.stream()
                 .unordered()
-//                .parallel()
+                .parallel()
                 .limit(2)
                 .skip(1)
                 .findFirst()
