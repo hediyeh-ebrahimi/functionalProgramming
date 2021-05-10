@@ -4,17 +4,30 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.regex.Pattern;
 import java.util.stream.Stream;
 
 /*
 *  file => stream
 * close fle is important
+* .chars
+* Pattern.compile
 * */
 public class FileStream {
     public static void main(String[] args) {
         //File.readFile("F:\\java_tutorial\\functionalPrograming\\src\\test.txt");
         //File.readFile("src/test.txt");
         //File.getListFileTree("");
+
+        String str = "A,B,C";
+        str.chars()
+                .map(operand -> (char)operand == ',' ? '-': (char)operand)
+                .forEach(i -> System.out.print((char)i));
+        
+        System.out.println("-----***------");
+        Pattern.compile(",")
+                .splitAsStream(str)
+                .forEach(System.out::print);
     }
 
     public static class File{
