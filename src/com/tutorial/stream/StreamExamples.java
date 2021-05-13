@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 /*
 * 1- iterator
 * 2- generate
-*
+* 3- peak -> debug
 * */
 public class StreamExamples {
     public static void main(String[] args) {
@@ -24,6 +24,7 @@ public class StreamExamples {
         Stream.generate(() -> 12).limit(3).forEach(System.out::println);
 
         Stream.generate(Math::random).limit(3).forEach(System.out::println);
+
 
 
     }

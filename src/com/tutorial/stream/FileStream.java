@@ -23,7 +23,7 @@ public class FileStream {
         str.chars()
                 .map(operand -> (char)operand == ',' ? '-': (char)operand)
                 .forEach(i -> System.out.print((char)i));
-        
+
         System.out.println("-----***------");
         Pattern.compile(",")
                 .splitAsStream(str)

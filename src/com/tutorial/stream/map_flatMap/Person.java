@@ -10,11 +10,16 @@ public class Person {
     public Person() {
     }
 
+    public Person(String name) {
+        this.name = name;
+    }
+
     public Person(Long id, String name, List<String> phoneNumbers) {
         this.id = id;
         this.name = name;
         this.phoneNumbers = phoneNumbers;
     }
+
 
     public Long getId() {
         return id;
