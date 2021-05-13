@@ -3,6 +3,8 @@ package com.tutorial.stream;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.OptionalInt;
+
 /*
 * map - filter - reduce
 * parallel - foreachRemaining
@@ -19,6 +21,9 @@ public class _Stream {
                 .filter(integer -> integer % 2 == 1)
                 .map(integer -> integer * integer)
                 .reduce(0, Integer::sum);
+
+        OptionalInt sumOptional = integers.stream().mapToInt(Integer::intValue).reduce(Integer::sum);
+        sumOptional.ifPresent(value -> System.out.println("--------sum----------"+value));
 
         System.out.println("res : "+res);
 
