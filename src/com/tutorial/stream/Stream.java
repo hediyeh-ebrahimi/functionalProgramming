@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 /*
 * filter - collect - foreach
 * allMatch - anyMatch
+* find any - find All
 * */
 public class Stream {
     public static void main(String[] args) {
