@@ -2,8 +2,14 @@ package com.tutorial.predicate;
 
 import java.util.function.Predicate;
 
+/*
+* predicate
+* negate
+* or
+* and
+* isEqual
+* */
 public class _Predicate {
-
     public static void main(String[] args) {
 
         //Imperative
@@ -15,6 +21,14 @@ public class _Predicate {
 
         Predicate<String> predicateExten = str ->  str.contains(".com");
         System.out.println("----*****-----"+predicateEmail.and(predicateExten).test("hediyeh@gmail.com"));
+
+        //negate
+        Predicate<Long> evenOrOdd = value -> value %2 ==0;
+        System.out.println("Even number: "+evenOrOdd.test(5L));
+        System.out.println("Negate Even number: "+evenOrOdd.negate().test(5L));
+
+        Predicate<String> stringPredicate = Predicate.isEqual("Test");
+        System.out.println("Is Equal: "+stringPredicate.test("Test4"));
 
 
 
