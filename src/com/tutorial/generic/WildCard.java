@@ -8,6 +8,7 @@ import java.util.List;
  * super lower bounds => <? super T>
  * <? super T> // super type ==== writeable
  * <? extends T>  ==== readonly
+ * exception ot have in generics
  *
  * */
 public class WildCard {
@@ -29,6 +30,12 @@ public class WildCard {
         List<? extends Number> numbers1 = integerList; // list is generated from children of number
         Number number = numbers1.get(2);
         //numbers1.add(5);//fault//
+
+        //Exception in thread "main" java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+        WrapperBound wrapperBound = new WrapperBound<Integer>(101);
+        WrapperBound<String> stringWrapperBound = wrapperBound;
+        String value = stringWrapperBound.getValue();
+        System.out.println(value);
 
     }
 
